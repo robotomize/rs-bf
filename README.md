@@ -8,7 +8,7 @@ This is a learning project, I'm trying to use rust.
 * Ease of Use: A straightforward and easy-to-understand API for adding and checking elements.
 * Efficiency: Uses minimal memory, making it ideal for large datasets.
 * Testing: Includes a suite of tests to ensure correct operation.
-* 
+
 ## Installation
 Add the following dependency to your Cargo.toml:
 ```toml
