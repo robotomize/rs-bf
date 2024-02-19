@@ -1,0 +1,13 @@
+name: lint
+on:
+  push:
+  pull_request:
+
+jobs:
+  clippy:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@clippy
+      - run: cargo clippy
