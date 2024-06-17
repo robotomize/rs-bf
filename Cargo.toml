@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-clap = "4.5.4"
+clap = "4.5.7"
 criterion = "0.5.1"
 
 [dependencies.uuid]
